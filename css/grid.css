@@ -1,0 +1,26 @@
+.container {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.container:after, .container:before {
+	content: "";
+	display: table;
+	margin: 0 auto;
+}
+
+.container:after {
+	clear: both;
+}
+
+.col-maior{
+	float: left;
+	width: 707px;
+}
+
+.col-menor{
+	float: left;
+	margin-left: 30px;
+	width: 363px;
+}

@@ -1,181 +1,139 @@
-body {
-	margin: 0;
-	padding: 0;
-	background: #F8F8FF;
-}
-li{
-	list-style-type: none;
-}
 a{
-	text-decoration: none;
-}
-#promo{
-	position: absolute;
-	width: 100%;
-	height: 700px;
-	/* min-width: 1050px; */
-	background-image: url(../img/hecarim-arcade.jpg);
-	z-index: -1;
-	background-repeat: no-repeat;
-	background-position: 50% 0;
-}
-.header {
-	width: 100%;
-	height: 110px;
-	z-index: 10;
-	position: 
-}
-.hidden {
-	width: 100%;
-	height: 120px;
-	
-}
-.logo {
-	max-width: 100%;
-	height: 100%;
-
-}
-.logo img {
-	max-width: 100%;
-}
-
-.menu{	
-	display: inline-block;
-	width: 60%;
-	margin-top: 140px;
-	margin-left: 100px;
-	margin-right: 100px;
-
-	
-}
-
-.menu .btn1 {
-	
-	
-	background: #000;
-	margin-top: 2px;
-	float: left;
-	border: 1px solid #000;
-	padding: 10px 46.5px;
-	margin-left: 10px;
-	
-	
-}
-.menu .btn2 {
-	
-	
-	background: #000;
-	margin-top: 2px;
-	float: left;
-	border: 1px solid #000;
-	padding: 10px 54px;	
-	margin-left: 10px;
-	
-}
-.menu .btn3 {
-
-	
-	background: #000;
-	margin-top: 2px;
-	float: left;
-	border: 1px solid #000;
-	padding: 10px 24px;	
-	margin-left: 10px;
-	
-}
-.menu .btn4 {
-	
-	
-	background: #000;
-	margin-top: 2px;
-	float: left;
-	border: 1px solid #000;
-	padding: 10px 32px;	
-	margin-left: 10px;
-}
-.menu .btn5 {
-	
-	
-	background: #000;
-	margin-top: 2px;
-	float: left;
-	border: 1px solid #000;
-	padding: 10px 32px;	
-	margin-left: 10px;
-}
-.menu li a{
-	color: #fff;
-	font-size: 16px;
 	font-family: 'Hind Madurai', sans-serif;
+}
+
+p{
+	font-family: 'Thasadith', sans-serif;
+}
+
+.bg{
+	max-width: 100%; 
+	height: 1080px; 
+	background: url(../img/bg-home.jpg) no-repeat center;
+}
+
+.bg .header{
 	
-	
 }
-.menu li .btn1:hover{
-	border: 1px solid #fff;
-	background: #2d8659;
 
+.menu{
+	margin-top: 100px;
 }
-.menu li .btn2:hover{
-	border: 1px solid #fff;
-	background: #2d8659;
 
-}
-.menu li .btn3:hover{
-	border: 1px solid #fff;
-	background: #2d8659;
-
-}
-.menu li .btn4:hover{
-	border: 1px solid #fff;
-	background: #2d8659;
-
-}
-.menu li .btn5:hover{
-	border: 1px solid #fff;
-	background: #2d8659;
-
-}
-.news{
-
-}
-.news .post-data{
+.btn{
 	display: inline-block;
-	overflow: hidden;
-	width: 56%;
-	height: 400px; /* trocar para auto */
-	margin-left: 110px;
-	background: #F8F8FF;
-	border: 1px solid #000;
-}
-.post-data div{
-	height: auto;
-	background: black; 
-}
-.post-data a{
-	font-size: 40px;
-	font-family: 'Hind Madurai', sans-serif;
-	color: white;
-}
-.footer{
-	width: 100%;
-	height: 200px;
-	background: #222;
-}
-.footer .sub-footer{
-	margin: 0 auto;
-	width: 316px;
-	height: 300px;
 	text-align: center;
-	word-spacing: 20px;
+	width: 127px;
+	height: 40px;
+	background: black;
+	margin-right: 13.485px;
 }
-.footer .footer-logo {
-	background: url(../img/logotipo2.png) center no-repeat;
-	padding-top: 40px;
-	width: 100%;
-	height: 100px;
+
+.btn:hover{
+	background: green;
+}
+
+.btn:last-child {
+	margin-right: 0px;
+}
+
+.btn li{
+	text-transform: uppercase;
+	margin-top: 11px;
+	color: white;	
+}
+
+.news {
 	float: left;
+	display: inline-block;
+	margin-top: 50px;	
+	width: 707px;
+	height: auto; /* trocar para auto */
+	background: white;
+	border:1px solid black;
+	overflow: hidden;
+
 }
-.footer a{
-	color: #fff;
-	font-family: 'Hind Madurai', sans-serif;
-	
+
+.news .leia:hover{
+	color: orange;	
+}
+.title{
+	height: auto;
+	background: black;
+
+}
+.title div {
+	display: block;
+	margin-left: 5px;
+}
+
+.title div a {
+	color: white;
+	font-size: 40px;	
+}
+
+.title p{
+	display: inline-block;
+	color: white;
+	margin-left: 5px;	
+}
+
+.description {
+		margin-left: 15px;
+	margin-right: 15px;
+}
+
+.description p {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.description a div{
+	display: block;
+	height: auto;
+}
+
+.description .leia{	
+	color: green;
+	font-size: 40px;
+
+}
+
+.end {	
+	height: 30px;	/* talvez trocar para auto */
+	background: black;
+
+}
+
+.sidebar{
+	float: right;
+	width: 350px;
+	height: 400px;
+	margin-top: 50px;
+	background: white;
+	border:1px solid black;
+}
+
+.footer{
+	position: relative;
+	bottom: 0px;
+	height: 150px;
+	background: #222;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.footer2 {
+	width: auto;
+	margin: 0 auto;
+}
+.footer ul li {
+	display: inline-block;
+
+}
+
+.footer li a{
+	color: white;
+	margin-left: 5px;
+}
+
